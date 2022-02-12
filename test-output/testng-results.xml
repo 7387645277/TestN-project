@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-12T07:46:25 IST" name="Suite" finished-at="2022-02-12T07:47:08 IST" duration-ms="43550">
+    <groups>
+    </groups>
+    <test started-at="2022-02-12T07:46:25 IST" name="Test" finished-at="2022-02-12T07:47:08 IST" duration-ms="43550">
+      <class name="testcases.verifysignuppage">
+        <test-method signature="fillSignupForm()[pri:0, instance:testcases.verifysignuppage@5ffead27]" started-at="2022-02-12T07:46:43 IST" name="fillSignupForm" finished-at="2022-02-12T07:47:08 IST" duration-ms="25004" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate option with value: QAanalyst
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'LAPTOP-JNT6BKIC', ip: '192.168.43.145', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with value: QAanalyst
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'LAPTOP-JNT6BKIC', ip: '192.168.43.145', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:287)
+at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:190)
+at pageobjectmodel.Signuppageobject.selectjobtitle(Signuppageobject.java:47)
+at testcases.verifysignuppage.fillSignupForm(verifysignuppage.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillSignupForm -->
+      </class> <!-- testcases.verifysignuppage -->
+      <class name="testcases.Verifyloginpage">
+        <test-method signature="LaunchBrowser(java.lang.String,java.lang.String)[pri:0, instance:testcases.Verifyloginpage@74e52303]" started-at="2022-02-12T07:46:25 IST" name="LaunchBrowser" data-provider="getData" finished-at="2022-02-12T07:46:35 IST" duration-ms="9969" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="LaunchBrowser(java.lang.String,java.lang.String)[pri:0, instance:testcases.Verifyloginpage@74e52303]" started-at="2022-02-12T07:46:35 IST" name="LaunchBrowser" data-provider="getData" finished-at="2022-02-12T07:46:43 IST" duration-ms="8445" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+      </class> <!-- testcases.Verifyloginpage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
